@@ -15,6 +15,11 @@
 		$ln->send($text);
 		echo "send '<u>$text</u>' OK...";
 	}
+
+	$text = 'ไม่มี ไม่มีหมูลิง แปลกใจจริงจริง หมูลิงไปไหน';
+		
+		$ln->send($text);
+		echo "send '<u>$text</u>' OK...";
 	
 
 ?>
