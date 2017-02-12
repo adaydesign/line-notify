@@ -3,7 +3,7 @@
 
 	require_once './vendor/autoload.php';
 
-	$token = 'neIJC7cZ5AAtDKUOftlNMifpiMT3Xcd4ZhftBFB7AvO';
+	$token = 'mHPHgrPY3eXN5ZGxX2hnzW1xB9I3NB0DzncU3MoeapU';
 	$ln = new KS\Line\LineNotify($token);
 
 	if(isset($_POST['send'])){
